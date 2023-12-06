@@ -127,3 +127,10 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* ho deciso di sovrascrivere la width, perchè così facendo non si visualizza la barra di scorrimento e così faccio una media query sola*/
+
+.container {
+    width: 100%;
+}
+
