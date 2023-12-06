@@ -134,3 +134,31 @@ img {
     width: 100%;
 }
 
+/* avevo provato a dare flex  tutto il body, ma non ottenevo l'effetto desiderato, ho dovuto procedere per classi */
+
+@media screen and (max-width: 480px) {
+    .lessons .row,
+    .steps .row,
+    .why-us .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+}
