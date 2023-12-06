@@ -161,27 +161,15 @@ img {
         width: 100%;
     }
 
-    /* provo a modificare il colore ma risulta na schifezza */
+    /* giocando con padding e margin sono riuscito a sistemare lo sfondo */
 
-    body {
-        background-color: yellow;
+    .steps {
+        margin-bottom: 0;
     }
 
     .why-us {
         background-color: black;
+        padding-top: 3rem;
+        margin-bottom: 0;
     }
-
-    main {
-        background-color: brown;
-    }
-
-    html {
-        background-color: orange;
-    }
-
-    .lessons,
-    .site-header {
-        background-color: green;
-    }
-
 }
