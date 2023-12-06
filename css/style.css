@@ -152,13 +152,36 @@ img {
     .steps .col {
         width: 100%;
     }
-
+    
     .why-us .col-left {
         width: 100%;
     }
 
     .why-us .col-right {
         width: 100%;
+    }
+
+    /* provo a modificare il colore ma risulta na schifezza */
+
+    body {
+        background-color: yellow;
+    }
+
+    .why-us {
+        background-color: black;
+    }
+
+    main {
+        background-color: brown;
+    }
+
+    html {
+        background-color: orange;
+    }
+
+    .lessons,
+    .site-header {
+        background-color: green;
     }
 
 }
